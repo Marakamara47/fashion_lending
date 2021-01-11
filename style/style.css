@@ -64,7 +64,7 @@ header {
 /* -------------------------------------------main */
 /* trend_block */
 .trend_block {
-  background: url(/images/photo/new_trend.png);
+  background: url(images/photo/new_trend.png);
   background-size: 100%;
   height: 46vw;
   background-repeat: no-repeat;
@@ -132,7 +132,7 @@ header {
   width: 19.5vw;
 }
 .catagory_chose {
-  background: url(/images/photo/givenchy_guy.png);
+  background: url(images/photo/givenchy_guy.png);
   background-size: 100%;
   width: 40vw;
   background-repeat: no-repeat;
@@ -241,7 +241,7 @@ header {
 }
 /* tachen_block */
 .tachen_block{
-  background: url(/images/tachen/tachen_1.svg);
+  background: url(images/tachen/tachen_1.svg);
   background-size: 100%;
   height: 46vw;
   background-repeat: no-repeat;
