@@ -13,6 +13,7 @@ header {
   display: flex;
   padding: 1vw 5vw;
   justify-content: space-around;
+  align-items: center;
 }
 /* navigation */
 .logo {
@@ -22,12 +23,16 @@ header {
 }
 .navigation_block {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 .navigation_links {
   display: flex;
   justify-content: space-around;
   width: 36vw;
+}
+.navigation_drop{
+  display: flex;
+  align-items: center;
 }
 .navigation_drop > a {
   color: #22262a;
@@ -58,6 +63,9 @@ header {
   align-items: center;
 }
 .menu > a {
+  display: flex;
+}
+.menu > a > img {
   width: 1vw;
 }
 /* ------------------------------------------/. header */
@@ -365,13 +373,51 @@ footer {
   align-items: center;
   height: 4vw;
   background-color: #e7f5f8;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 /* ------------------------------------------/. footer */
 
 /* ------------------------------------------/. adaptive */
 /* 481px */
 @media(max-width:481px){
+  /* trend_block */
+  .trend_block_content {
+    margin-right: 1vw;
+    margin-bottom: 6vw;
+  }
+  .trend_block_content > h2 {
+    font-size: 2vw;
+  }
+  .trend_block_content > h1 {
+    font-size: 6vw;
+  }
+  .trend_block_content > span {
+    font-size: 2vw;
+  }
+  .button_link > a {
+    font-size: 2vw;
+  }
+  /* catagory_block */
+  .catagory_block{
+    flex-direction: column-reverse;
+  }
+  .catagory_chose {
+    width: 90vw;
+    height: 94vw;
+    margin-bottom: 2vw;
+  }
+  .catagory_chose > button {
+    margin: 9.8vw;
+  }
+  .catagory_chose > button > a {
+    font-size: 3.1vw;
+  }
+  .main_link > a > img {
+    width: 90vw;
+  }
+  .sub_link > a > img {
+    width: 44.5vw;
+  }
   /* card_block */
   .cards_block {
     flex-wrap: wrap;
@@ -391,10 +437,6 @@ footer {
   .card_price {
     font-size: 2.5vw;
     padding-bottom: 4vw;
-  }
-  /* avone_block */
-  .avone_block {
-    margin-bottom: 6vw;
   }
   /* about_block */
   .about_block > h2 {
@@ -435,6 +477,35 @@ footer {
   }
   .footer_list > li > a {
     font-size: 1.6vw;
+  }
+  /* avone_block */
+  .avone_block {
+    margin-bottom: 14vw;
+  }
+  .right_block {
+    width: 45vw;
+  }
+  .right_block > div {
+    left: 4vw;
+  }
+  .right_block > img {
+    width: 35vw;
+  }
+  .right_block > div > img {
+    width: 21vw;
+  }
+  .right_block > div > a {
+    font-size: 2vw;
+  }
+  .left_block {
+    height: 45vw;
+  }
+  .left_block > img {
+    width: 36vw;
+  }
+  /* footer_copyright */
+  .footer_copyright {
+    font-size: 2vw;
   }
 }
 /* 321 px */
